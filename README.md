@@ -269,18 +269,63 @@ Overall Accuracy                          98.33%
 
 ## 8. Research Figures & Verification Artifacts
 
-All research figures are rendered at publication quality (**300 DPI**, high-contrast palettes, vector-aligned annotations) in `outputs/figures/`:
+All research figures are rendered at publication quality (**300 DPI**, high-contrast palettes, vector-aligned annotations).
 
-| Figure ID | File Name | Description & Scientific Value |
-| :--- | :--- | :--- |
-| **Fig 1** | [`fig1_confusion_matrix_normalized.png`](outputs/figures/fig1_confusion_matrix_normalized.png) | Normalized recall percentage confusion matrices across both tasks. |
-| **Fig 2** | [`fig2_confusion_matrix_counts.png`](outputs/figures/fig2_confusion_matrix_counts.png) | Unnormalized raw frequency confusion matrices with explicit cell counts. |
-| **Fig 3** | [`fig3_roc_curves_origin.png`](outputs/figures/fig3_roc_curves_origin.png) | One-vs-Rest ROC curves for Authenticity classification showing macro AUC of **0.9709**. |
-| **Fig 4** | [`fig4_roc_curves_content.png`](outputs/figures/fig4_roc_curves_content.png) | One-vs-Rest ROC curves for Content classification showing near-perfect separation (**AUC 0.9994**). |
-| **Fig 5** | [`fig5_precision_recall_curves.png`](outputs/figures/fig5_precision_recall_curves.png) | Precision-Recall trajectories with Average Precision (AP) per class. |
-| **Fig 6** | [`fig6_per_class_metrics_bar.png`](outputs/figures/fig6_per_class_metrics_bar.png) | Grouped metric comparison (Precision, Recall, F1) across all classes. |
-| **Fig 7** | [`fig7_confidence_distribution.png`](outputs/figures/fig7_confidence_distribution.png) | Empirical histogram of model prediction confidences (correct vs. misclassified). |
-| **Fig 8** | [`fig8_multitask_summary.png`](outputs/figures/fig8_multitask_summary.png) | High-level multi-task comparison benchmark bar chart. |
+---
+
+### Fig 1 — Normalized Confusion Matrices (Recall %)
+> Recall-normalized confusion matrices for both Task 1 (Authenticity) and Task 2 (Semantic Content).
+
+![Fig 1: Normalized Confusion Matrices](outputs/figures/fig1_confusion_matrix_normalized.png)
+
+---
+
+### Fig 2 — Raw-Count Confusion Matrices
+> Unnormalized frequency confusion matrices with explicit per-cell counts for both tasks.
+
+![Fig 2: Raw Count Confusion Matrices](outputs/figures/fig2_confusion_matrix_counts.png)
+
+---
+
+### Fig 3 — ROC Curves: Authenticity Classification (Macro AUC = 0.9709)
+> One-vs-Rest ROC curves per origin class with AUC annotations. AI Generated achieves AUC **0.9904**.
+
+![Fig 3: ROC Curves — Authenticity](outputs/figures/fig3_roc_curves_origin.png)
+
+---
+
+### Fig 4 — ROC Curves: Semantic Content Classification (Macro AUC = 0.9994)
+> One-vs-Rest ROC curves for Human / Face / Animal content classification showing near-perfect separation.
+
+![Fig 4: ROC Curves — Content](outputs/figures/fig4_roc_curves_content.png)
+
+---
+
+### Fig 5 — Precision-Recall Curves with Average Precision (AP)
+> Precision-Recall trajectories with per-class AP scores for the Authenticity classification task.
+
+![Fig 5: Precision-Recall Curves](outputs/figures/fig5_precision_recall_curves.png)
+
+---
+
+### Fig 6 — Per-Class Metrics Bar Chart (Precision / Recall / F1)
+> Grouped bar chart comparing Precision, Recall, and F1-Score across all origin and content classes side-by-side.
+
+![Fig 6: Per-Class Metrics Bar Chart](outputs/figures/fig6_per_class_metrics_bar.png)
+
+---
+
+### Fig 7 — Confidence Score Distribution (Correct vs. Misclassified)
+> Empirical histogram of max-softmax confidence scores, stratified by correct predictions vs. errors.
+
+![Fig 7: Confidence Distribution](outputs/figures/fig7_confidence_distribution.png)
+
+---
+
+### Fig 8 — Multi-Task Performance Overview
+> High-level summary bar chart comparing accuracy, macro-F1, and macro-AUC across both tasks simultaneously.
+
+![Fig 8: Multi-Task Summary](outputs/figures/fig8_multitask_summary.png)
 
 ### Generated Verification Data Files
 - **`outputs/evaluation_metrics.json`**: Machine-readable full evaluation metrics.
