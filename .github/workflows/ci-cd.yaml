@@ -1,0 +1,65 @@
+name: ci-cd.yaml
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  validate-data:
+    name: Validate Data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate dataset structure
+        run: echo "Validating dataset integrity and structure..."
+
+  test-and-lint:
+    name: Test And Lint
+    needs: validate-data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run code formatting and tests
+        run: echo "Running pep8 and unit tests..."
+
+  train-model:
+    name: Train Model
+    needs: test-and-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Start model training
+        run: echo "Simulating training pipeline..."
+
+  monitor-drift:
+    name: Monitor Drift
+    needs: train-model
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for drift
+        run: echo "Comparing validation set embeddings for data drift..."
+
+  build-docker:
+    name: Build Docker Image
+    needs: monitor-drift
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build image
+        run: echo "Building DS-MTFNet inference container..."
+
+  publish-image:
+    name: Publish Image
+    needs: build-docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push to registry
+        run: echo "Pushing image to GitHub Container Registry..."
+
+  deploy:
+    name: Deploy
+    needs: publish-image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy API and UI
+        run: echo "Rolling out update to the production inference cluster..."

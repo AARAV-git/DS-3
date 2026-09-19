@@ -1,0 +1,105 @@
+{
+  "model": "DS-MTFNet v5.0",
+  "checkpoint": "checkpoints/best_v5_model.pth",
+  "eval_split": "dataset\\testing",
+  "total_samples": 1080,
+  "origin_accuracy": 0.899074074074074,
+  "content_accuracy": 0.9833333333333333,
+  "joint_accuracy": 0.8842592592592593,
+  "origin_per_class": {
+    "AI Generated": {
+      "precision": 0.9416445623342176,
+      "recall": 0.9861111111111112,
+      "f1": 0.9633649932157394,
+      "support": 360
+    },
+    "AI Edited": {
+      "precision": 0.8611898016997167,
+      "recall": 0.8444444444444444,
+      "f1": 0.85273492286115,
+      "support": 360
+    },
+    "Real Image": {
+      "precision": 0.8914285714285715,
+      "recall": 0.8666666666666667,
+      "f1": 0.8788732394366198,
+      "support": 360
+    }
+  },
+  "origin_macro": {
+    "precision": 0.8980876451541686,
+    "recall": 0.8990740740740741,
+    "f1": 0.8983243851711697
+  },
+  "content_per_class": {
+    "Human": {
+      "precision": 0.9913793103448276,
+      "recall": 0.9583333333333334,
+      "f1": 0.9745762711864406,
+      "support": 360
+    },
+    "Face": {
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "f1": 0.9876543209876543,
+      "support": 360
+    },
+    "Animal": {
+      "precision": 0.9834710743801653,
+      "recall": 0.9916666666666667,
+      "f1": 0.9875518672199171,
+      "support": 360
+    }
+  },
+  "content_macro": {
+    "precision": 0.983486713607518,
+    "recall": 0.9833333333333334,
+    "f1": 0.9832608197980041
+  },
+  "confusion_matrix_origin": [
+    [
+      355,
+      4,
+      1
+    ],
+    [
+      19,
+      304,
+      37
+    ],
+    [
+      3,
+      45,
+      312
+    ]
+  ],
+  "confusion_matrix_content": [
+    [
+      345,
+      9,
+      6
+    ],
+    [
+      0,
+      360,
+      0
+    ],
+    [
+      3,
+      0,
+      357
+    ]
+  ],
+  "roc_auc_origin": {
+    "AI Generated": 0.9904436728395062,
+    "AI Edited": 0.9455613425925925,
+    "Real Image": 0.9760262345679013,
+    "macro": 0.9708584104938272
+  },
+  "roc_auc_content": {
+    "Human": 0.998539737654321,
+    "Face": 0.9995698302469136,
+    "Animal": 0.9998206018518518,
+    "macro": 0.9993756430041152
+  }
+}

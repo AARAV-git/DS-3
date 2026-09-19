@@ -1,0 +1,247 @@
+=== CROSS-SPLIT DUPLICATE IMAGES (TRAIN vs VAL / TEST) ===
+
+Group 1 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_002.jpg
+  - dataset\train\real\animal\elephant\real_elephant_035.jpg
+
+Group 2 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_003.jpg
+  - dataset\train\real\animal\elephant\real_elephant_039.jpg
+
+Group 3 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_004.jpg
+  - dataset\train\real\animal\elephant\real_elephant_040.jpg
+
+Group 4 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_005.jpg
+  - dataset\train\real\animal\elephant\real_elephant_045.jpg
+
+Group 5 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_006.jpg
+  - dataset\train\real\animal\elephant\real_elephant_047.jpg
+
+Group 6 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_007.jpg
+  - dataset\train\real\animal\elephant\real_elephant_060.jpg
+
+Group 7 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_008.jpg
+  - dataset\train\real\animal\elephant\real_elephant_070.jpg
+
+Group 8 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_009.jpg
+  - dataset\train\real\animal\elephant\real_elephant_020.jpg
+  - dataset\train\real\animal\elephant\real_elephant_080.jpg
+
+Group 9 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_010.jpg
+  - dataset\train\real\animal\elephant\real_elephant_081.jpg
+
+Group 10 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_011.jpg
+  - dataset\train\real\animal\elephant\real_elephant_086.jpg
+
+Group 11 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_012.jpg
+  - dataset\train\real\animal\elephant\real_elephant_087.jpg
+
+Group 12 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\elephant\Real_Elephant_013.jpg
+  - dataset\train\real\animal\elephant\real_elephant_100.jpg
+
+Group 13 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_013.jpg
+  - dataset\train\real\animal\horse\real_horse_047.jpg
+
+Group 14 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_014.jpg
+  - dataset\train\real\animal\horse\real_horse_054.jpg
+
+Group 15 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_017.jpg
+  - dataset\train\real\animal\horse\real_horse_064.jpg
+
+Group 16 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_018.jpg
+  - dataset\train\real\animal\horse\real_horse_072.jpg
+
+Group 17 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_020.jpg
+  - dataset\train\real\animal\horse\real_horse_075.jpg
+
+Group 18 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_021.jpg
+  - dataset\train\real\animal\horse\real_horse_080.jpg
+
+Group 19 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_022.jpg
+  - dataset\train\real\animal\horse\real_horse_099.jpg
+
+Group 20 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_023.jpg
+  - dataset\train\real\animal\horse\real_horse_102.jpg
+
+Group 21 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\horse\Real_Horse_024.jpg
+  - dataset\train\real\animal\horse\real_horse_108.jpg
+
+Group 22 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_013.jpg
+  - dataset\train\real\animal\lion\real_lion_040.jpg
+
+Group 23 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_014.jpg
+  - dataset\train\real\animal\lion\real_lion_053.jpg
+
+Group 24 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_016.jpg
+  - dataset\train\real\animal\lion\real_lion_059.jpg
+
+Group 25 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_017.jpg
+  - dataset\train\real\animal\lion\real_lion_063.jpg
+
+Group 26 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_018.jpg
+  - dataset\train\real\animal\lion\real_lion_075.jpg
+
+Group 27 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_019.jpg
+  - dataset\train\real\animal\lion\real_lion_087.jpg
+
+Group 28 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_020.jpg
+  - dataset\train\real\animal\lion\real_lion_095.jpg
+
+Group 29 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_021.jpg
+  - dataset\train\real\animal\lion\real_lion_098.jpg
+
+Group 30 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_022.jpg
+  - dataset\train\real\animal\lion\real_lion_102.jpg
+
+Group 31 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_023.jpg
+  - dataset\train\real\animal\lion\real_lion_110.jpg
+
+Group 32 (Splits: ['test', 'train']):
+  - dataset\test\real\animal\lion\Real_Lion_024.jpg
+  - dataset\train\real\animal\lion\real_lion_112.jpg
+
+Group 33 (Splits: ['train', 'val']):
+  - dataset\train\ai\human\AI_human_536.jpeg
+  - dataset\val\ai\face\AI_FACE_052.jpeg
+
+Group 34 (Splits: ['train', 'val']):
+  - dataset\train\ai\human\AI_human_541.jpeg
+  - dataset\val\ai\face\AI_FACE_053.jpeg
+
+Group 35 (Splits: ['train', 'val']):
+  - dataset\train\ai\human\AI_human_559.jpeg
+  - dataset\val\ai\face\AI_FACE_054.jpeg
+
+Group 36 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_052.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_001.jpg
+
+Group 37 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_062.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_002.jpg
+
+Group 38 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_063.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_003.jpg
+
+Group 39 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_064.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_004.jpg
+
+Group 40 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_068.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_005.jpg
+
+Group 41 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_075.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_006.jpg
+
+Group 42 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_076.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_007.jpg
+
+Group 43 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_078.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_008.jpg
+
+Group 44 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_085.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_009.jpg
+
+Group 45 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_095.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_010.jpg
+
+Group 46 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_104.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_011.jpg
+
+Group 47 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\elephant\real_elephant_109.jpg
+  - dataset\val\real\animal\elephant\Real_Elephant_012.jpg
+
+Group 48 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_043.jpg
+  - dataset\val\real\animal\horse\Real_Horse_002.jpg
+
+Group 49 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_051.jpg
+  - dataset\val\real\animal\horse\Real_Horse_004.jpg
+
+Group 50 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_074.jpg
+  - dataset\val\real\animal\horse\Real_Horse_005.jpg
+
+Group 51 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_081.jpg
+  - dataset\val\real\animal\horse\Real_Horse_006.jpg
+
+Group 52 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_082.jpg
+  - dataset\val\real\animal\horse\Real_Horse_007.jpg
+
+Group 53 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_089.jpg
+  - dataset\val\real\animal\horse\Real_Horse_008.jpg
+
+Group 54 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\horse\real_horse_100.jpg
+  - dataset\val\real\animal\horse\Real_Horse_010.jpg
+
+Group 55 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_065.jpg
+  - dataset\val\real\animal\lion\Real_Lion_016.jpg
+
+Group 56 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_078.jpg
+  - dataset\val\real\animal\lion\Real_Lion_017.jpg
+
+Group 57 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_086.jpg
+  - dataset\val\real\animal\lion\Real_Lion_019.jpg
+
+Group 58 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_088.jpg
+  - dataset\val\real\animal\lion\Real_Lion_020.jpg
+
+Group 59 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_099.jpg
+  - dataset\val\real\animal\lion\Real_Lion_021.jpg
+
+Group 60 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_104.jpg
+  - dataset\val\real\animal\lion\Real_Lion_022.jpg
+
+Group 61 (Splits: ['train', 'val']):
+  - dataset\train\real\animal\lion\real_lion_108.jpg
+  - dataset\val\real\animal\lion\Real_Lion_024.jpg
+
